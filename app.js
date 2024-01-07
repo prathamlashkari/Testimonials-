@@ -33,7 +33,7 @@
                 }
                 index--;
                 customerImage.src = customers[index].img;
-                customerName.textContent = customers[index].name; // Fix the typo here
+                customerName.textContent = customers[index].name; 
                 customerText.textContent = customers[index].text;
             }
 
@@ -43,7 +43,7 @@
                     index = 0;
                 }
                 customerImage.src = customers[index].img;
-                customerName.textContent = customers[index].name; // Fix the typo here
+                customerName.textContent = customers[index].name;
                 customerText.textContent = customers[index].text;
             }
         });
