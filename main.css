@@ -12,6 +12,11 @@ body {
   height: 100vh;
   background: #0f8392;
   font-family: "Poppins", sans-serif;
+  /* background img */
+  background-image: url("./img/imageswebp.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
 }
 
 .container {
