@@ -2,7 +2,7 @@
     const customerImage = document.querySelector('#customer-img');
     const customerName = document.querySelector('#customer-name');
     const customerText = document.querySelector('#customer-text');
-    const btn = document.querySelectorAll('.btn'); // Use querySelectorAll to select all buttons
+    const btn = document.querySelectorAll('.btn'); 
     let index = 0;
     const customers = [];
 
